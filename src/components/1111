@@ -1,0 +1,12 @@
+var wrapper = event.target,
+            list = wrapper.firstElementChild
+
+        var scrollTop = wrapper.scrollTop,
+            wrapperHeight = wrapper.offsetHeight,
+            listHeight = list.offsetHeight
+
+        var diffHeight = listHeight - wrapperHeight    
+            
+        if(diffHeight <= scrollTop) {
+          this.getAllPosts();
+        }
