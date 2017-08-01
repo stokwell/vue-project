@@ -1,5 +1,5 @@
 <template>
   <section class="contacts">
-    <h2>Контакты</h2>
+    <h2>Contacts</h2>
   </section>
 </template>
